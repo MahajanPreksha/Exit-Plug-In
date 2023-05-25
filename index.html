@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Food Website</title>
+    <title>The Indian Cuisine</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -16,10 +16,10 @@
         <div id="menu-bar" class="fas fa-bars" class="fa-solid fa-magnifying-glass"></div>
         <nav class="navbar">
             <a href="#home">Home</a>
-            <a href="#about">about</a>
-            <a href="#menu">menu</a>
-            <a href="#review">review</a>
-            <a href="#order">order</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#review">Review</a>
+            <a href="#order">Order</a>
             <a href="#"><i class="fa-solid fa-magnifying-glass" id="search-icon"></i></a>
             <a href="#"><i class="fa-solid fa-heart"></i></a>
             <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
@@ -41,12 +41,11 @@
     <!-- home section starts -->
     <section class="home" id="home">
         <div class="content">
-            <h3>food made with <span>love</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ratione saepe atque veniam molestias delectus nostrum, 
-                neque magni eum tempore laboriosam maxime illum aspernatur
-                 iste quisquam dolores inventore nesciunt impedit fugiat!</p>
-                 <a href="#order" class="btn">order now</a>
+            <h3>Food Made With <span>Love</span></h3>
+            <p>If you're a foodie and looking for fresh, homely cooked food filled with love,
+                The Indian Cuisine is the perfect place for you.
+            </p>
+                 <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="image">
             <img src="image/Indian-food-1.png" alt="">
@@ -55,30 +54,50 @@
     </section>
 
 
-    <section class="About">
+    <section class="About" id="about">
         <div class="about_main">
-            <h3>about <span> us</span></h3>
-            <h1>Why chose us?</h1>
-            <h3>Best Food In the country</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Ratione saepe atque veniam molestias delectus nostrum, 
-                neque magni eum tempore laboriosam maxime illum aspernatur
-                 iste quisquam dolores inventore nesciunt impedit fugiat!</p>
-                 <a href="#order" class="btn">Learn More</a>
+            <h3>About <span> Us</span></h3>
+            <h1>Why choose us?</h1>
+            <!-- <h3>Because</h3> -->
+            <p>Simply, because we serve the best quality of food in the entire country.
+                We believe that <b>quality of food served >>> quantity of food served</b>.<br>
+                Our motto is <br><span>"Better Ingredients lead to Better Food"</span>.
+            <p><i>Other reasons listed below:</i></p>
+            </p>
+                 <!-- <a href="#order" class="btn">Learn More</a> -->
     </section>
 
     <!-- home section ends -->
 
+<section class="steps">
+    <div class="box">
+        <img src="image/packing.png" alt="" height="200px">
+        <h3>Choose Your Favourite Food Easily</h3>
+    </div>
+    <div class="box">
+        <img src="image/cash.jpg" alt="">
+        <h3>Easy Payment Method</h3>
+    </div>
+    <div class="box">
+        <img src="image/deliveryboy.jpg" alt="">
+        <h3>Free and Fast Delivery</h3>
+    </div>
+    
+    <div class="box">
+        <img src="image/eating.jpg" alt="">
+        <h3>Amazing Food Quality</h3>
+    </div>
+</section>
 
 <!-- menu section starts here -->
 <section class="popular" id="popular">
-    <h1 class="heading">Our <span>Menu</span></h1>
+    <h1 class="heading"  id="menu">Our <span>Menu</span></h1>
 
     <div class="box-container">
         <div class="box">
             <span class="price">Rs 320.00</span>
             <img src="image/chicken-biryani.jpg" alt="">
-            <h3>Chicken biryani</h3>
+            <h3>Chicken Biryani</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -86,12 +105,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order now</a>
         </div>
         <div class="box">
             <span class="price">Rs 420.00</span>
             <img src="image/mutton-biryani.jpg" alt="">
-            <h3>mutton biryani</h3>
+            <h3>Mutton Biryani</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -99,12 +118,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 280.00</span>
             <img src="image/veg biryani.jpg" alt="">
-            <h3>veg biryani</h3>
+            <h3>Veg Biryani</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -112,13 +131,13 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
 
         <div class="box">
             <span class="price">Rs 220.00</span>
             <img src="image/paneer-butter-masala.png" alt="">
-            <h3>masala paneer</h3>
+            <h3>Masala Paneer</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -126,13 +145,13 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
 
         <div class="box">
             <span class="price">Rs 200.00</span>
             <img src="image/chilli-panner.png" alt="">
-            <h3>Chilli paneer</h3>
+            <h3>Chilli Paneer</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -140,12 +159,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 150.00</span>
             <img src="image/veg thali.jpg" alt="">
-            <h3>Veg thali</h3>
+            <h3>Veg Thali</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -153,12 +172,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 120.00</span>
             <img src="image/dalmakhani.jpg" alt="">
-            <h3>dal-makhani</h3>
+            <h3>Dal Makhani</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -166,7 +185,7 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 120.00</span>
@@ -179,12 +198,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 40.00</span>
             <img src="image/tandori roti.jpg" alt="">
-            <h3>Tandori Roti</h3>
+            <h3>Tandoori Roti</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -192,7 +211,7 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#order" class="btn">order now</a>
+            <a href="#order" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 40.00</span>
@@ -205,7 +224,7 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 150.00</span>
@@ -218,12 +237,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 50.00</span>
             <img src="image/paratha.jpg" alt="">
-            <h3>paratha</h3>
+            <h3>Aloo Parantha</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -231,7 +250,7 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 120.00</span>
@@ -244,12 +263,12 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 100.00</span>
             <img src="image/pasta.jpg" alt="">
-            <h3>Pasta</h3>
+            <h3>Red Pasta</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -257,7 +276,7 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn">Order Now</a>
         </div>
         <div class="box">
             <span class="price">Rs 280.00</span>
@@ -270,14 +289,14 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <a href="#" class="btn">order now</a>
+            <a href="#" class="btn">Order Now</a>
         </div>
     </div>
 
 </section>
 <!-- menu section ends here -->
 <!-- steps stars here -->
-<section class="steps">
+<!-- <section class="steps">
     <div class="box">
         <img src="image/packing.png" alt="" height="200px">
         <h3>Choose your favourite food</h3>
@@ -294,19 +313,19 @@
         <img src="image/eating.jpg" alt="" height="245px">
         <h3>Enjoy the food</h3>
     </div>
-</section>
+</section> -->
 
 <!-- steps section ends here -->
 
 
 <!-- about section starts here -->
 <section class="review" id="review">
-    <h1 class="heading">our customers  <span>reviews</span>  </h1>
+    <h1 class="heading">Our Customers' <span>Reviews</span>  </h1>
 
     <div class="box-container">
         <div class="box">
-            <img src="image/review_1.png" alt="">
-            <h3>user-one</h3>
+            <img src="image\Screenshot_1.jpg" alt="">
+            <h3>Pratyush Kumar</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -314,13 +333,23 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Molestias rem aliquam totam facere quam dolor, iure a
-                 possimus enim laboriosam.</p>
+            <p>Amazing food quality and served timely.</p>
         </div>
         <div class="box">
-            <img src="image/review_2.png" alt="" width="190px">
-            <h3>user-two</h3>
+            <img src="image\5a788a16-48bf-4526-9465-28effa184210.jpg" alt="" width="190px">
+            <h3>Preksha Mahajan</h3>
+            <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+            </div>
+            <p>I strongly recommend you to visit here if you want home made food at an affordable rate.</p>
+        </div>
+        <div class="box">
+            <img src="image\WhatsApp Image 2023-05-25 at 9.34.11 AM.jpeg" alt="">
+            <h3>Prerana Thakur</h3>
             <div class="stars">
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star"></i>
@@ -328,25 +357,9 @@
                 <i class="fa-solid fa-star"></i>
                 <i class="fa-solid fa-star-half-stroke"></i>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Molestias rem aliquam totam facere quam dolor, iure a
-                 possimus enim laboriosam.</p>
+            <p>It is a must visit place with good ambience and peace.</p>
         </div>
-        <div class="box">
-            <img src="image/review_3.png" alt="">
-            <h3>user-three</h3>
-            <div class="stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-            </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Molestias rem aliquam totam facere quam dolor, iure a
-                 possimus enim laboriosam.</p>
-        </div>
-        <div class="box">
+        <!-- <div class="box">
             <img src="image/review_4.png" alt="">
             <h3>user-four</h3>
             <div class="stars">
@@ -358,7 +371,7 @@
             </div>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Molestias rem aliquam totam facere quam dolor, iure a
-                 possimus enim laboriosam.</p>
+                 possimus enim laboriosam.</p> -->
         </div>
     </div>
 </section>
@@ -367,7 +380,7 @@
 
 <!-- order section starts -->
 <section class="order" id="order">
-    <h1 class="heading"><span>Order</span> now</h1>
+    <h1 class="heading"><span>Order</span> Now</h1>
 
     <div class="row">
         <div class="image">
@@ -375,15 +388,15 @@
         </div>
         <form action="">
             <div class="inputBox">
-                <input type="text" placeholder="Name">
-                <input type="email"placeholder="Email">
+                <input type="text" placeholder="Enter your full name">
+                <input type="email"placeholder="Enter your valid email ID">
             </div>
 
             <div class="inputBox">
-                <input type="number" placeholder="Number">
-                <input type="text"placeholder="Food Name">
+                <input type="number" placeholder="Enter your mobile number">
+                <input type="text"placeholder="Enter your address">
             </div>
-            <textarea placeholder="Address" name="" id="" cols="30" rows="10"></textarea>
+            <textarea placeholder="Enter your food items" name="" id="" cols="30" rows="10"></textarea>
 
             <input type="submit" value="Order Now" class="btn">
 
@@ -397,11 +410,13 @@
 <!-- footer section -->
 <section class="footer">
     <div class="share">
-        <a href="https://www.instagram.com/pratyush_sinha___/" class="btn">instagram</a>
-        <a href="https://www.facebook.com/pratyush.2005" class="btn">facebook</a>
-        <a href="https://www.linkedin.com/in/pratyush-kumar-340b26267/" class="btn">linkedin</a>
+        <a href="https://www.instagram.com/pratyush_sinha___/" class="btn">Instagram</a>
+        <a href="https://www.facebook.com/pratyush.2005" class="btn">Facebook</a>
+        <a href="https://www.linkedin.com/in/pratyush-kumar-340b26267/" class="btn">Linkedin</a>
+        <a href="https://twitter.com/MahajanPreksha" class="btn">Twitter</a>
+
     </div>
-    <h1 class="credit">created by <span>Team-17</span> | all rights reserved!</h1>
+    <h1 class="credit">© Team-17 || All Rights Reserved!</h1>
 </section>
 
 <!-- scroll top button -->
@@ -414,7 +429,7 @@
     <div class="offer-box" id="offer-box">
         <div class="offer-text">
             <h2>GET 20% OFF ON FIRST ORDER</h2>
-            <small>On any food</small>
+            <small>On All Food Items</small>
             <form>
                 <input type="email" placeholder="Your Email" class="email"><br>
                 <button type="submit" class="btn1"><h4>Subscribe</h4></button>
